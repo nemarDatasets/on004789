@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004789-blue)](https://doi.org/10.82901/nemar.on004789)
+
 ### Delayed Free Recall of Word Lists
 
 #### Description

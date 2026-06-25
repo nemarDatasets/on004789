@@ -2,18 +2,68 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Delayed Free Recall of Word Lists",
+  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task conducted across multiple clinical sites. Participants studied visually presented word lists, performed arithmetic distractor tasks, and subsequently engaged in free recall. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
+  "methods_description": "Data were collected using intracranial electrodes during a delayed free recall paradigm. Participants studied word lists presented visually one at a time, completed arithmetic problems as a distractor task, and then freely recalled words from the presented list. iEEG recordings were acquired on multiple systems and scaled to voltage units (V). Monopolar recordings are referenced (typically mastoid) and bipolar recordings follow paired electrode schemes. Electrode locations include MNI and Talairach coordinates with brain region annotations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Haydn G. Herrema": {},
     "Michael J. Kahana": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004789.v3.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "free recall"
+    },
+    {
+      "term": "delayed free recall"
+    },
+    {
+      "term": "memory"
+    },
+    {
+      "term": "word lists"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "electrode localization"
+    },
+    {
+      "term": "multi-site"
+    },
+    {
+      "term": "behavioral data"
+    },
+    {
+      "term": "Hospital of the University of Pennsylvania"
+    },
+    {
+      "term": "Thomas Jefferson University Hospital"
+    },
+    {
+      "term": "Dartmouth-Hitchcock Medical Center"
+    },
+    {
+      "term": "Mayo Clinic"
+    },
+    {
+      "term": "Columbia University Hospital"
+    },
+    {
+      "term": "Emory University Hospital"
+    },
+    {
+      "term": "University of Texas Southwestern Medical Center"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004789",
       "identifier_type": "URL",
@@ -28,6 +78,11 @@
       "identifier": "10.18112/openneuro.ds004789",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004789.v3.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -46,63 +101,21 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "ieeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "618.7 GB (989 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises behavioral events and intracranial electrophysiological recordings from a delayed free recall task conducted across multiple clinical sites. Participants studied visually presented word lists, performed arithmetic distractor tasks, and then freely recalled words in any order. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
-  "methods_description": "Intracranial EEG recordings were collected during a delayed free recall paradigm involving visual presentation of word lists, arithmetic distractor tasks, and free recall phases. Recordings were acquired on multiple systems and standardized to voltage units (V). Both monopolar (referenced, typically mastoid) and bipolar recordings are included with accompanying channel reference tables. Electrode locations are provided with MNI and Talairach coordinates and brain region annotations where available.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "delayed free recall"
-    },
-    {
-      "term": "Memory",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
-    },
-    {
-      "term": "word lists"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "Cognition",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
-    },
-    {
-      "term": "Brain Mapping",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
-    },
-    {
-      "term": "arithmetic distractor"
-    },
-    {
-      "term": "free recall paradigm"
-    },
-    {
-      "term": "electrode localization"
-    }
-  ],
-  "source_hash": "df7d5cba46524130894a90f9ede3c99a53eac08b442d768f6fdd0cd59652b686"
+  "source_hash": "242bbf8e4cc29c7e1c2761fef0148729230dc2fc64013633e60178d60c31b0fe"
 }

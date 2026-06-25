@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Delayed Free Recall of Word Lists",
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task conducted across multiple clinical sites. Participants studied visually presented word lists, performed arithmetic distractor tasks, and subsequently engaged in free recall. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
-  "methods_description": "Data were collected using intracranial electrodes during a delayed free recall paradigm. Participants studied word lists presented visually one at a time, completed arithmetic problems as a distractor task, and then freely recalled words from the presented list. iEEG recordings were acquired on multiple systems and scaled to voltage units (V). Monopolar recordings are referenced (typically mastoid) and bipolar recordings follow paired electrode schemes. Electrode locations include MNI and Talairach coordinates with brain region annotations.",
+  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task conducted across multiple clinical sites. Participants studied visually presented word lists, performed arithmetic distractor tasks, and then freely recalled words in any order. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
+  "methods_description": "Intracranial electrophysiological recordings were collected during a delayed free recall paradigm involving visual presentation of word lists, arithmetic distractor tasks, and free recall. Recordings were made on multiple systems and standardized to voltage units (V). Both monopolar (referenced, typically mastoid) and bipolar recordings are included with accompanying electrode localization data in MNI and Talairach coordinates.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,46 +21,23 @@
       "term": "free recall"
     },
     {
-      "term": "delayed free recall"
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
-      "term": "memory"
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
     },
     {
       "term": "word lists"
     },
     {
-      "term": "electrophysiology"
+      "term": "cognitive neuroscience"
     },
     {
-      "term": "electrode localization"
-    },
-    {
-      "term": "multi-site"
-    },
-    {
-      "term": "behavioral data"
-    },
-    {
-      "term": "Hospital of the University of Pennsylvania"
-    },
-    {
-      "term": "Thomas Jefferson University Hospital"
-    },
-    {
-      "term": "Dartmouth-Hitchcock Medical Center"
-    },
-    {
-      "term": "Mayo Clinic"
-    },
-    {
-      "term": "Columbia University Hospital"
-    },
-    {
-      "term": "Emory University Hospital"
-    },
-    {
-      "term": "University of Texas Southwestern Medical Center"
+      "term": "delayed free recall"
     }
   ],
   "related_identifiers": [

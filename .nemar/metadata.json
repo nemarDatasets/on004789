@@ -1,42 +1,108 @@
 {
   "version": "2.0",
-  "dataset_id": "on004789",
-  "source": "openneuro",
-  "source_id": "ds004789",
+  "pipeline_stage": "enriched",
   "title": "Delayed Free Recall of Word Lists",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Haydn G. Herrema": {},
     "Michael J. Kahana": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004789.v3.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004789",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004789",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004789",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "beh",
-    "ieeg"
-  ],
-  "datatypes": [
-    "beh",
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "DARPA RAM: N66001-14-2-4032"
+      "funder_name": "DARPA",
+      "award_number": "N66001-14-2-4032",
+      "award_title": "RAM"
     },
     {
-      "funder_name": "NIH: R01-NS-106611"
+      "funder_name": "NIH",
+      "award_number": "R01-NS-106611"
     },
     {
-      "funder_name": "NIH: U01-NS-113198"
+      "funder_name": "NIH",
+      "award_number": "U01-NS-113198"
     }
   ],
-  "acknowledgements": "We thank our collaborators who have helped in the collection of this data: Hospital of the University of Pennsylvania, Thomas Jefferson University Hospital, Dartmouth-Hitchcock Medical Center, Mayo Clinic, NIH NINDS, Columbia University Hospital, Emory University Hospital, University of Texas Southwestern Medical Center."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh",
+    "ieeg"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "This dataset comprises behavioral events and intracranial electrophysiological recordings from a delayed free recall task conducted across multiple clinical sites. Participants studied visually presented word lists, performed arithmetic distractor tasks, and then freely recalled words in any order. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
+  "methods_description": "Intracranial EEG recordings were collected during a delayed free recall paradigm involving visual presentation of word lists, arithmetic distractor tasks, and free recall phases. Recordings were acquired on multiple systems and standardized to voltage units (V). Both monopolar (referenced, typically mastoid) and bipolar recordings are included with accompanying channel reference tables. Electrode locations are provided with MNI and Talairach coordinates and brain region annotations where available.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "delayed free recall"
+    },
+    {
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
+    },
+    {
+      "term": "word lists"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "Cognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+    },
+    {
+      "term": "Brain Mapping",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
+    },
+    {
+      "term": "arithmetic distractor"
+    },
+    {
+      "term": "free recall paradigm"
+    },
+    {
+      "term": "electrode localization"
+    }
+  ],
+  "source_hash": "df7d5cba46524130894a90f9ede3c99a53eac08b442d768f6fdd0cd59652b686"
 }

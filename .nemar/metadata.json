@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004789",
+  "source": "openneuro",
+  "source_id": "ds004789",
+  "title": "Delayed Free Recall of Word Lists",
+  "authors": {
+    "Haydn G. Herrema": {},
+    "Michael J. Kahana": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004789.v3.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "beh",
+    "ieeg"
+  ],
+  "datatypes": [
+    "beh",
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "DARPA RAM: N66001-14-2-4032"
+    },
+    {
+      "funder_name": "NIH: R01-NS-106611"
+    },
+    {
+      "funder_name": "NIH: U01-NS-113198"
+    }
+  ],
+  "acknowledgements": "We thank our collaborators who have helped in the collection of this data: Hospital of the University of Pennsylvania, Thomas Jefferson University Hospital, Dartmouth-Hitchcock Medical Center, Mayo Clinic, NIH NINDS, Columbia University Hospital, Emory University Hospital, University of Texas Southwestern Medical Center."
+}

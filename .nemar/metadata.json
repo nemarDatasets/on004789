@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Delayed Free Recall of Word Lists",
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task conducted across multiple clinical sites. Participants studied visually presented word lists, performed arithmetic distractor tasks, and then freely recalled words in any order. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
-  "methods_description": "Intracranial electrophysiological recordings were collected during a delayed free recall paradigm involving visual presentation of word lists, arithmetic distractor tasks, and free recall. Recordings were made on multiple systems and standardized to voltage units (V). Both monopolar (referenced, typically mastoid) and bipolar recordings are included with accompanying electrode localization data in MNI and Talairach coordinates.",
+  "description": "This dataset contains intracranial EEG recordings and behavioral event data from patients performing a delayed free recall task, in which participants studied word lists, engaged in an arithmetic distractor task, and freely recalled words. Data were collected across multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania, providing electrode localization and referencing information suitable for memory and epilepsy research.",
+  "methods_description": "Participants studied lists of words presented visually one at a time, then completed arithmetic distractor problems, followed by free recall of the words in any order. Intracranial EEG was recorded using monopolar and bipolar referencing schemes across multiple recording systems, with voltage values standardized to microvolts. Electrode locations were annotated with MNI and Talairach coordinates and brain region labels when available.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,10 +12,10 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "iEEG"
     },
     {
-      "term": "iEEG"
+      "term": "intracranial electrodes"
     },
     {
       "term": "free recall"
@@ -26,28 +26,17 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
-      "term": "Electrophysiology",
+      "term": "Epilepsy",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "word lists"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "delayed free recall"
+      "term": "electrode localization"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004789",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004789",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -60,6 +49,11 @@
       "identifier": "10.18112/openneuro.ds004789.v3.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004789",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [

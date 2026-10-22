@@ -1,0 +1,9 @@
+name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	description	notch
+LAHCMD2-LAHCMD3	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
+LAHCMD4-LAHCMD5	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
+LAHCMD6-LAHCMD7	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
+LAHCMD8-LAHCMD1	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
+LPHCMD2-LPHCMD3	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
+LPHCMD4-LPHCMD5	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
+LPHCMD6-LPHCMD7	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
+LPHCMD8-LPHCMD1	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a

@@ -96,13 +96,9 @@ LAHCD5-LAHCD6	SEEG	V	n/a	n/a	bipolar	LAHCD	1000	depth	n/a
 LAHCD6-LAHCD1	SEEG	V	n/a	n/a	bipolar	LAHCD	1000	depth	n/a
 LAHCD7-LAHCD8	SEEG	V	n/a	n/a	bipolar	LAHCD	1000	depth	n/a
 LAHCMD1-LAHCMD2	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
-LAHCMD2-LAHCMD3	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
 LAHCMD3-LAHCMD4	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
-LAHCMD4-LAHCMD5	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
 LAHCMD5-LAHCMD6	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
-LAHCMD6-LAHCMD7	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
 LAHCMD7-LAHCMD8	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
-LAHCMD8-LAHCMD1	SEEG	V	n/a	n/a	bipolar	LAHCMD	1000	micro	n/a
 LPHCD1-LPHCD2	SEEG	V	n/a	n/a	bipolar	LPHCD	1000	depth	n/a
 LPHCD2-LPHCD3	SEEG	V	n/a	n/a	bipolar	LPHCD	1000	depth	n/a
 LPHCD3-LPHCD4	SEEG	V	n/a	n/a	bipolar	LPHCD	1000	depth	n/a
@@ -110,13 +106,9 @@ LPHCD4-LPHCD5	SEEG	V	n/a	n/a	bipolar	LPHCD	1000	depth	n/a
 LPHCD5-LPHCD6	SEEG	V	n/a	n/a	bipolar	LPHCD	1000	depth	n/a
 LPHCD6-LPHCD1	SEEG	V	n/a	n/a	bipolar	LPHCD	1000	depth	n/a
 LPHCMD1-LPHCMD2	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
-LPHCMD2-LPHCMD3	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
 LPHCMD3-LPHCMD4	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
-LPHCMD4-LPHCMD5	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
 LPHCMD5-LPHCMD6	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
-LPHCMD6-LPHCMD7	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
 LPHCMD7-LPHCMD8	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
-LPHCMD8-LPHCMD1	SEEG	V	n/a	n/a	bipolar	LPHCMD	1000	micro	n/a
 LAWS1-LAWS2	ECOG	V	n/a	n/a	bipolar	LAWS	1000	strip	n/a
 LAWS2-LAWS3	ECOG	V	n/a	n/a	bipolar	LAWS	1000	strip	n/a
 LAWS3-LAWS4	ECOG	V	n/a	n/a	bipolar	LAWS	1000	strip	n/a
